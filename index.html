@@ -8,8 +8,8 @@
   <title>Website</title>
 </head>
 <body class="bg-emerald-950 text-zinc-100">
-    <header class="flex justify-between px-4 py-2 md:px-8 md:py-4 items-center border-b-2 border-gray-200">
-        <div class=""><span class="fa-solid fa-bomb"></i>ovelix</div>
+    <header class=" fixed top-0 w-full flex justify-between px-4 py-2 md:px-8 font-bold md:py-4 items-center border-b-2 border-gray-200">
+        <div class=""><span class="fa-solid fa-bomb"></span>ovelix</div>
             <ul class="flex">
                 <li class="p-4"><a href="#">Home</a></li>
                 <li class="p-4"><a href="#">About</a></li>
@@ -21,50 +21,72 @@
         <button class="border rounded px-4 py-2 rounded"> Let's Talk</button>
     </header>
     <!-- hero-sec -->
-  <main class="grid grid-cols-3 md:flex-row gap-2 md:gap-4 px-4 py-8 md:px-16 md:py-16">
-    <!-- sec-1 -->
-    <div class="flex flex-col gap-4 mb-8">
-        <div class="">
-            <h1 class="relative text-2xl font-bold mb-8 md:text-3xl lg:text-6xl">
-            Creativity meets <span class="text-8xl mb-[-20px] inline-block absolute leaft-0 ">*</span> strategy
-              </h1>
-              <p class="">#1 Digital agency in world</p>
-        </div>
-        <div class="flex flex-row md:flex-col gap-4">
-           <img src="https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg" alt="" class="w-1/2 md:w-[10vw] rounded-xl">
-             <span class="fa-solid fa-quote-left"></span>
-             <p class="text-slate-100 w-1/3 text-sm">At Ovelix, we merge creativity with streategy to build brand which inspire trust, drive engagement.</p>
-        </div>
-    </div>
-
-     <div class="mx-4 h-[60vh] overflow-hidden">
-        <img src="https://images.pexels.com/photos/6322374/pexels-photo-6322374.jpeg" alt="two person discussing about work holding a table and marker"
-         class="object-cover w-full h-full rounded-lg  "
-         class="">
-     </div>
-     <!-- sec-3 -->
-      <div class="">
-        <div class="flex flex-col gap-8 mb-8">
-            <div class="">
-                <p class="text-4xl font-bold">97%</p>
-                <p>Client Retention Rate</p>
+  <main class="">
+    <!-- hero-section -->
+    <div class="h-[100vh] flex flex-col justify-center">
+        <section class="lg:mt-8 grid grid-cols-3 md:flex-row gap-4 mb-8 md:gap-4 px-4 py-8 md:px-16 md:py-12 pt-60">
+            <div class="flex flex-col gap-4 mb-8">
+                <div class="">
+                    <h1 class="relative text-2xl font-bold mb-8 md:text-3xl lg:text-6xl">
+                    Creativity meets <span class="text-8xl mb-[-20px] inline-block absolute leaft-0 ">*</span> strategy
+                      </h1>
+                      <p class="">#1 Digital agency in world</p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4">
+                   <img src="https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg" alt="" class="w-1/2 md:w-[10vw] rounded-xl">
+                     <span class="fa-solid fa-quote-left"></span>
+                     <p class="text-slate-100 w-[80%] text-sm">At Ovelix, we merge creativity with streategy to build brand which inspire trust, drive engagement.</p>
+                </div>
             </div>
-            <div>
-                <p  class="text-4xl font-bold">37k+</p>
-            <p>Project completed</p>
-            </div>
-            <ul class="pl-4 list-disc text-sm/8" >
-                <li>Brand Identity Design</li>
-                <li>UI/UX Design</li>
-                <li>Digital Marketing</li>
-                <li>Content Creation</li>
+             <div class="mx-4 lg:ml-[-40px] h-[60vh] overflow-hidden">
+                <img src="https://images.pexels.com/photos/6322374/pexels-photo-6322374.jpeg" alt="two person discussing about work holding a table and marker"
+                 class="object-cover w-full h-full rounded-lg  "
+                 class="">
+             </div>
+             <!-- sec-3 -->
+              <div class="lg:pl-6">
+                <div class="flex flex-col gap-8 mb-8">
+                    <div class="">
+                        <p class="text-4xl font-bold">97%</p>
+                        <p>Client Retention Rate</p>
+                    </div>
+                    <div>
+                        <p  class="text-4xl font-bold">37k+</p>
+                    <p>Project completed</p>
+                    </div>
+                    <ul class="pl-4 list-disc text-sm/8" >
+                        <li>Brand Identity Design</li>
+                        <li>UI/UX Design</li>
+                        <li>Digital Marketing</li>
+                        <li>Content Creation</li>
+                    </ul>
+                    <div class="justify-end mt-4">
+                        <button class="border rounded px-4 py-2 rounded bg-yellow-200 text-gray-700 cursor-pointer font-bold"> Start Your Project <span class="fa-solid fa-arrow-right"></spam></button>
+                    </div>
+                </div>
+                <div class=""></div>
+              </div>
+        </section>
+        <section class="companies-section px-4 md:px-16 py-8 border-t border-b border-gray-200">
+            <ul class="flex flex-wrap gap-4 justify-center md:justify-between cursor-pointer">
+                <li class="border border-gray-200 px-4 py-1 md:px-6 md:py-2 rounded"><a href="">Bog Evens</a></li>
+                <li class="border border-gray-200 px-4 py-1 md:px-6 md:py-2 rounded"><a href="">Disney</a></li>
+                <li class="border border-gray-200 px-4 py-1 md:px-6 md:py-2 rounded"><a href="">Yesess</a></li>
+                <li class="border border-gray-200 px-4 py-1 md:px-6 md:py-2 rounded"><a href="">Gourmet</a></li>
+                <li class="border border-gray-200 px-4 py-1 md:px-6 md:py-2 rounded"><a href="">IBM</a></li>
+                <li class="border border-gray-200 px-4 py-1 md:px-6 md:py-2 rounded"><a href="">Hostar</a></li>
             </ul>
-            <div class="justify-end mt-4">
-                <button class="border rounded px-4 py-2 rounded bg-yellow-200 text-gray-700"> Start Your Project <span class="fa-solid fa-arrow-right"></spam></button>
+        </section>
+    </div>
+    <div class="">
+        <section>
+            <div class="">Our project</div>
+            <div class="flex justify-between items-center mb-8 px-4 md:px-16 py-8">
+                <h2>Exploring the Art of Creative Mastery</h2>
+                <a href="#">All Project View</a>
             </div>
-        </div>
-        <div class=""></div>
-      </div>
+        </section>
+    </div>
   </main>
   
 </body>
